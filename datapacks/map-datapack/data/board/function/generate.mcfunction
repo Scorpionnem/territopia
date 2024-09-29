@@ -1,0 +1,1 @@
+$function board:board/innit/size/$(size)

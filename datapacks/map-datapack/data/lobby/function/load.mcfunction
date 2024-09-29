@@ -1,0 +1,1 @@
+scoreboard objectives add button.state dummy
