@@ -9,6 +9,7 @@ scoreboard objectives add raycast dummy
 scoreboard objectives add unit.id dummy
 scoreboard objectives add game dummy
 team add green
+scoreboard objectives add ocean.count dummy
 
 #: board scoreboard | .x & .z
 scoreboard objectives add board dummy
