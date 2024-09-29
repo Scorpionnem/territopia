@@ -1,1 +1,1 @@
-execute positioned 0.0 0 0.0 run function board:board/innit/innit {x:44,z:44}
+execute positioned 2.0 0 0.0 run function board:board/innit/innit {scale:22}
