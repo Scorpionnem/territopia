@@ -11,3 +11,5 @@ Credits:
 -SmartyAlek : Developpement of the project, he rewrote the generation code to try to optimize it.
 
 MCC Island for the textures that I use as temporary textures. I do not share the resource pack as it contains their work.
+
+![image](https://github.com/user-attachments/assets/2974f58e-3201-4444-ad3d-db54a040ebaf)
