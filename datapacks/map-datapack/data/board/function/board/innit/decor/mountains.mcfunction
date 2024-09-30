@@ -9,5 +9,5 @@ execute positioned ~ ~ ~-2 if entity @e[tag=mountains,distance=0] run scoreboard
 tag @s remove this
 
 execute if score @s ocean.count matches ..1 run return fail
-tag @s add forest
+tag @s add plains
 tag @s remove mountains

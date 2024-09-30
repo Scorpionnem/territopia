@@ -2,7 +2,7 @@
 #: loop summon board interaction
 execute if score .x board matches 0 run return 0
 
-summon interaction ~ 0 ~ {width:2f,height:1f,Tags:["tile"],response:1b}
+summon interaction ~ 0 ~ {width:2f,height:1.2f,Tags:["tile"],response:1b}
 
 scoreboard players remove .z board 1
 

@@ -3,6 +3,7 @@ kill @e[tag=poi]
 kill @e[tag=deco]
 kill @e[tag=tile]
 kill @e[tag=unit]
+kill @e[tag=select]
 
 title @a actionbar "Generating..."
 
@@ -36,5 +37,10 @@ execute as @e[tag=tile,tag=decorated] run function board:board/innit/decor/decor
 #: set poi locations
 execute as @e[tag=tile,tag=decorated,tag=!spawn] run function board:board/innit/poi/spawn
 
+
+#: set ruins spawn
+execute as @e[tag=tile,tag=empty,tag=!forest,tag=!mountains,tag=!ocean] at @s run function board:board/innit/poi/ruins
 #scoreboard players set @e[tag=tile] button.state 0
 
+
+title @a actionbar "Generation complete!"

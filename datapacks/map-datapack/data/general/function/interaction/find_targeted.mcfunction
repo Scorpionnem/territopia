@@ -9,4 +9,6 @@ execute if score #bool interaction matches 1 as @s[tag=player4] at @s run functi
 execute if score #bool interaction matches 1 as @s[tag=generation.setting] at @s run function lobby:interaction/settings/generation
 execute if score #bool interaction matches 1 as @s[tag=size.setting] at @s run function lobby:interaction/settings/size
 
+execute if score #bool interaction matches 1 as @s[tag=tile] at @s run function general:game/board/process_click_on_tile
+
 execute if score #bool interaction matches 1 run data remove entity @s interaction

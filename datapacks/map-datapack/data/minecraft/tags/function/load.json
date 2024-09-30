@@ -1,3 +1,3 @@
 {
-	"values": ["board:load","lobby:load"]
+	"values": ["board:load","lobby:load","units:load"]
 }
