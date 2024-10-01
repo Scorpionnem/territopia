@@ -13,3 +13,4 @@ execute unless entity @a[predicate=lobby:looking_at/player4] run function lobby:
 execute unless entity @a[predicate=lobby:looking_at/sizesetting] run function lobby:resetfunctions/reset_sizesetting
 
 execute unless entity @a[predicate=lobby:looking_at/generationsetting] run function lobby:resetfunctions/reset_generationsetting
+

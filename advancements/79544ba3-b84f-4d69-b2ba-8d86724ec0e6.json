@@ -1,223 +1,181 @@
 {
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2024-09-26 15:25:36 +0200"
+      "unlock_right_away": "2024-10-01 21:53:26 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
+  "minecraft:recipes/misc/lime_dye": {
     "criteria": {
-      "has_red_wool": "2024-09-26 18:53:21 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_banner": {
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
     "criteria": {
-      "has_red_wool": "2024-09-26 18:53:21 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/painting": {
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
-      "has_wool": "2024-09-26 18:53:21 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_bed": {
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
     "criteria": {
-      "has_red_wool": "2024-09-26 18:53:21 +0200"
+      "has_needed_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_planks": {
+  "minecraft:recipes/building_blocks/dye_white_wool": {
     "criteria": {
-      "has_logs": "2024-09-27 11:19:10 +0200"
+      "has_needed_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/charcoal": {
+  "minecraft:recipes/decorations/white_candle": {
     "criteria": {
-      "has_log": "2024-09-27 11:19:10 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/jungle_hanging_sign": {
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
     "criteria": {
-      "has_stripped_logs": "2024-09-27 11:19:10 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+  "minecraft:recipes/misc/gray_dye": {
     "criteria": {
-      "has_log": "2024-09-27 11:19:10 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/book": {
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
     "criteria": {
-      "has_paper": "2024-09-27 12:29:14 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:recipes/building_blocks/dye_white_bed": {
     "criteria": {
-      "has_paper": "2024-09-27 12:29:14 +0200"
+      "has_needed_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lime_carpet": {
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
     "criteria": {
-      "has_lime_wool": "2024-09-27 12:37:40 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lime_banner": {
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_lime_wool": "2024-09-27 12:37:40 +0200"
+      "has_white_dye": "2024-10-01 21:54:51 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lime_bed": {
+  "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
-      "has_lime_wool": "2024-09-27 12:37:40 +0200"
+      "has_blaze_powder": "2024-10-01 21:57:13 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/green_bed": {
+  "minecraft:recipes/misc/ender_eye": {
     "criteria": {
-      "has_green_wool": "2024-09-27 12:37:41 +0200"
+      "has_blaze_powder": "2024-10-01 21:57:13 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/green_banner": {
+  "minecraft:recipes/misc/fire_charge": {
     "criteria": {
-      "has_green_wool": "2024-09-27 12:37:41 +0200"
+      "has_blaze_powder": "2024-10-01 21:57:13 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/green_carpet": {
+  "minecraft:recipes/building_blocks/dye_red_bed": {
     "criteria": {
-      "has_green_wool": "2024-09-27 12:37:41 +0200"
+      "has_needed_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
+  "minecraft:recipes/building_blocks/dye_red_wool": {
     "criteria": {
-      "has_blue_wool": "2024-09-27 12:37:42 +0200"
+      "has_needed_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_bed": {
+  "minecraft:recipes/misc/purple_dye": {
     "criteria": {
-      "has_light_blue_wool": "2024-09-27 12:37:42 +0200"
+      "has_red_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
-      "has_blue_wool": "2024-09-27 12:37:42 +0200"
+      "has_red_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_carpet": {
+  "minecraft:recipes/decorations/red_candle": {
     "criteria": {
-      "has_light_blue_wool": "2024-09-27 12:37:42 +0200"
+      "has_red_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_banner": {
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
     "criteria": {
-      "has_light_blue_wool": "2024-09-27 12:37:42 +0200"
+      "has_red_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_banner": {
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_blue_wool": "2024-09-27 12:37:42 +0200"
+      "has_red_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
     "criteria": {
-      "has_gray_wool": "2024-09-27 12:37:43 +0200"
+      "has_needed_dye": "2024-10-01 21:57:14 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_banner": {
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
     "criteria": {
-      "has_gray_wool": "2024-09-27 12:37:43 +0200"
+      "has_needed_dye": "2024-10-01 21:57:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_carpet": {
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_gray_wool": "2024-09-27 12:37:43 +0200"
+      "has_purple_dye": "2024-10-01 21:57:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
     "criteria": {
-      "has_logs": "2024-09-29 11:44:03 +0200"
+      "has_needed_dye": "2024-10-01 21:57:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
+  "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
-      "has_leather": "2024-09-30 13:31:49 +0200"
+      "has_purple_dye": "2024-10-01 21:57:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_leggings": {
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
-      "has_leather": "2024-09-30 13:31:49 +0200"
+      "has_purple_dye": "2024-10-01 21:57:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/item_frame": {
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
     "criteria": {
-      "has_leather": "2024-09-30 13:31:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2024-09-30 13:31:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-09-30 13:31:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2024-09-30 13:31:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2024-09-30 13:31:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2024-09-30 15:55:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2024-09-30 15:55:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2024-09-30 15:55:43 +0200"
+      "has_needed_dye": "2024-10-01 21:57:15 +0200"
     },
     "done": true
   },

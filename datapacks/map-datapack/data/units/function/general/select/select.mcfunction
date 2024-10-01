@@ -1,9 +1,13 @@
 execute as @e[tag=selected_tile] run return run function units:general/select/unselect
-#execute if score @s unit.select matches 1 run return run function units:general/select/unselect
+
+
+$execute on passengers as @s[tag=!player$(currentplayer),tag=unit] run return fail
+
 scoreboard players set @s unit.select 1
 
 tag @s add selected_tile
 
+execute as @e[tag=tile,tag=unit] unless function units:general/checks/checkunit run tag @s remove unit
 
 #: Stores the ranges of the unit
 execute on passengers store result storage unit attackrange int 1 run scoreboard players get @s unit.attackrange
