@@ -1,4 +1,4 @@
-tp @a[tag=currentplayer] 23 12 46
+tp @a[tag=currentplayer] -2000 1 2000 0 0
 attribute @a[tag=currentplayer,limit=1] minecraft:generic.gravity base set 0.08
 
 tag @a remove currentplayer

@@ -1,3 +1,4 @@
+tp @a -2000 1 2000 0 0
 
 
 function board:generate with storage minecraft:generation
