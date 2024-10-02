@@ -1,1 +1,1 @@
-$function units:general/summon {name:warrior,player:player$(currentplayer),attack:1,attackrange:3,movementrange:2,health:8,boatlevel:2,canclimbmountains:0}
+$function units:general/summon {name:warrior,player:player$(currentplayer),attack:1,attackrange:3,movementrange:2,health:8,boatlevel:2,canclimbmountains:0,maxmooves:20,moovesleft:20}

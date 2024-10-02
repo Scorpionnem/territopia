@@ -1,0 +1,1 @@
+$execute at @e[tag=unit,tag=player$(currentplayer),type=item_display] as @e[distance=..3,tag=fog,tag=tile] run function board:fog/remove_fog_for_player with storage game

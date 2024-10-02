@@ -18,6 +18,7 @@ execute as @n[tag=select] at @s run function units:general/moove/group_close
 execute if score @n[tag=unit,type=item_display] unit.boatlevel matches 0 as @n[tag=select] at @s run function units:general/moove/group
 execute if score @n[tag=unit,type=item_display] unit.boatlevel matches 1.. as @n[tag=select] at @s run function units:general/moove/group_boat
 
+
 #: Removes unselected tiles
 function units:general/moove/removesafe
 

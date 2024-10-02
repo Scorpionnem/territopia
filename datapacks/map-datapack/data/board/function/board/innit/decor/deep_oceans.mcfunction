@@ -13,6 +13,6 @@ execute positioned ~ ~ ~-2 if entity @e[tag=plains,distance=0] run scoreboard pl
 
 tag @s remove this
 
-execute if score @s ocean.count matches ..1 run return fail
+execute if score @s ocean.count matches 0 run return fail
 tag @s add ocean
 tag @s remove deep_ocean

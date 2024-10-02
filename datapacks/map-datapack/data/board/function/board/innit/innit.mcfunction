@@ -4,6 +4,11 @@ kill @e[tag=deco]
 kill @e[tag=tile]
 kill @e[tag=unit]
 kill @e[tag=select]
+kill @e[tag=fog]
+kill @e[tag=playerhead]
+kill @e[tag=structure]
+
+
 
 title @a actionbar "Generating..."
 
@@ -23,13 +28,19 @@ execute positioned 55 0 43 as @n[tag=tile] run function board:board/innit/decor/
 execute positioned 55 0 -22 as @n[tag=tile] run function board:board/innit/decor/set
 execute positioned -10 0 -22 as @n[tag=tile] run function board:board/innit/decor/set
 
+execute positioned -10 0 43 as @n[tag=tile] run tag @s add startplayer1
+execute positioned 55 0 43 as @n[tag=tile] run tag @s add startplayer2
+execute positioned 55 0 -22 as @n[tag=tile] run tag @s add startplayer3
+execute positioned -10 0 -22 as @n[tag=tile] run tag @s add startplayer4
+
+
 #: set all other tile decor types
 execute at @e[tag=tile,tag=spawn] as @n[tag=tile,tag=!spawn,tag=!decorated] at @s run function board:board/innit/decor/setall
 
 execute as @e[tag=tile,tag=mountains] at @s run function board:board/innit/decor/mountains_to_ocean
 execute as @e[tag=tile,tag=ocean] at @s run function board:board/innit/decor/oceans
-execute as @e[tag=tile,tag=deep_ocean] at @s run function board:board/innit/decor/deep_oceans
 execute as @e[tag=tile,tag=mountains] at @s run function board:board/innit/decor/mountains
+execute as @e[tag=tile,tag=deep_ocean] at @s run function board:board/innit/decor/deep_oceans
 
 #: set decorations
 execute as @e[tag=tile,tag=decorated] run function board:board/innit/decor/decor

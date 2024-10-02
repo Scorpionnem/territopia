@@ -6,6 +6,7 @@ scoreboard players set #hit raycast 1
 
 tag @s[tag=tile] add this
 tag @s[tag=tile] add glowing
+
 execute unless score @a[tag=currentplayer,limit=1] setting.sounds matches 1 run function raycast:sound_setting
 scoreboard players set @s[tag=tile] button.state 1
 scoreboard players set @e[tag=!this,tag=tile] button.state 0

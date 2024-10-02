@@ -5,6 +5,10 @@ scoreboard objectives add unit.movementrange dummy
 scoreboard objectives add unit.id dummy
 scoreboard objectives add unit.select dummy
 
+scoreboard objectives add unit.moovesleft dummy
+scoreboard objectives add unit.maxmooves dummy
+
+
 scoreboard objectives add unit.boatlevel dummy
 scoreboard objectives add unit.canclimbmountains dummy
 

@@ -1,7 +1,9 @@
 execute as @e[tag=selected_tile] run return run function units:general/select/unselect
 
+execute as @s on passengers if score @s[tag=unit] unit.moovesleft matches 0 run return run function units:general/select/unselect
 
 $execute on passengers as @s[tag=!player$(currentplayer),tag=unit] run return fail
+
 
 scoreboard players set @s unit.select 1
 

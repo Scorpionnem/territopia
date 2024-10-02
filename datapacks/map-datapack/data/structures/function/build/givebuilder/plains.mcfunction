@@ -1,0 +1,2 @@
+execute as @n[tag=currentplayer] run clear @s
+item replace entity @n[tag=currentplayer] container.0 with carrot_on_a_stick[item_name='"Cancel"',lore=['{"color":"gray","italic":false,"text":"ᴄʟɪᴄᴋ ᴛᴏ ᴄᴀɴᴄᴇʟ"}'],custom_data={cancel:1},custom_model_data=6,attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"minecraft:player.entity_interaction_range",amount:-64,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
