@@ -8,4 +8,3 @@ item replace entity @n[tag=currentplayer] container.5 from entity @n[tag=current
 item replace entity @n[tag=currentplayer] container.6 from entity @n[tag=currentplayer] enderchest.6
 item replace entity @n[tag=currentplayer] container.7 from entity @n[tag=currentplayer] enderchest.7
 item replace entity @n[tag=currentplayer] container.8 from entity @n[tag=currentplayer] enderchest.9
-

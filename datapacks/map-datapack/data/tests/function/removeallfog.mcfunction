@@ -1,0 +1,1 @@
+execute as @e[tag=fog,tag=tile] run function board:fog/remove_fog_for_player with storage game

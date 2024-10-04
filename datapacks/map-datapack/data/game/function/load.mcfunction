@@ -18,3 +18,10 @@ scoreboard objectives add village.maxunitscount dummy
 scoreboard objectives add village.unitscount dummy
 scoreboard objectives add village.starsperturn dummy
 scoreboard objectives add village.idplayer dummy
+scoreboard objectives add village.level dummy
+scoreboard objectives add village.xp dummy
+scoreboard objectives add village.xp.nextlevel dummy
+
+
+
+scoreboard objectives add xp.timer dummy
