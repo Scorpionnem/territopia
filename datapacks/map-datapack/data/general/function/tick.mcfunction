@@ -1,16 +1,16 @@
 
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={settings:1}] run function game:inventory/items/clicksettings
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={settings:1}] run function game:inventory/items/clicksettings
 
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={end_turn:1}] run function game:nextplayer/end_turn
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={end_turn:1}] run function game:nextplayer/end_turn
 
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={cancel:1}] run function structures:build/givebuilder/getitemsback
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={cancel:1}] run function structures:build/givebuilder/getitemsback
 
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={tech_tree:1}] run function tech_tree:tp
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={leave_tech_tree:1}] run function tech_tree:leave
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={tech_tree:1}] run function tech_tree:tp
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={leave_tech_tree:1}] run function tech_tree:leave
 
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={end_turn_confirm:1}] run function game:inventory/items/end_turn
-execute as @a if score @s carrot matches 1.. if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={end_turn_cancel:1}] run function structures:build/givebuilder/getitemsback
-
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={end_turn_confirm:1}] run function game:inventory/items/end_turn
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 if items entity @s weapon.mainhand carrot_on_a_stick[custom_data={end_turn_cancel:1}] run function structures:build/givebuilder/getitemsback
+execute as @a if score @s carrot matches 1.. if score @s carrotcooldown matches 0 run scoreboard players set @s carrotcooldown 4
 
 execute if score state game matches 1 run function board:tick
 
@@ -40,6 +40,7 @@ execute if score state game matches 1 run effect give @a[tag=!currentplayer] inv
 execute if score state game matches 1 run effect clear @a[tag=currentplayer] invisibility
 effect give @a saturation infinite 10 true 
 scoreboard players set @a carrot 0
+execute as @a if score @s carrotcooldown matches 1.. run scoreboard players remove @s carrotcooldown 1
 
 execute as @a if items entity @s container.* chorus_fruit run tp @s 2000 1 2000 0 0
 execute as @a if items entity @s container.* chorus_fruit run clear @s chorus_fruit

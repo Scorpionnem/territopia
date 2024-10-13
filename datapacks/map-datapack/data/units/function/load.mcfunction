@@ -16,3 +16,8 @@ scoreboard objectives add radius dummy
 scoreboard players set 2 radius 2
 
 scoreboard objectives add swapplaces dummy
+
+scoreboard objectives add scheduleid dummy
+scoreboard objectives add thistileid dummy
+
+scoreboard objectives add blockinteraction dummy

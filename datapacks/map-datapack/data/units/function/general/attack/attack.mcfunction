@@ -11,6 +11,7 @@ execute at @n[tag=thistile] run tp @n[tag=playerhead] ~ ~ ~ facing entity @n[tag
 scoreboard players operation @n[tag=lookatme] unit.health -= @n[tag=thistile] unit.attack
 execute as @n[tag=thistile] at @s positioned ~ ~2.5 ~ run particle sweep_attack
 execute as @n[tag=thistile] at @s run playsound entity.player.attack.sweep ambient @a ~ ~ ~
+execute at @n[tag=lookatme] run particle crit ~ ~2.5 ~ .3 .3 .3 .5 10 normal
 
 scoreboard players set value swapplaces 0
 scoreboard players set canswap swapplaces 0
@@ -20,8 +21,10 @@ execute if score value swapplaces matches 1 as @n[tag=lookatme] at @s run summon
 execute as @n[tag=lookatme] if score value swapplaces matches 1 run function units:general/died
 execute if score value swapplaces matches 1 as @n[tag=thistile] at @s run function units:general/attack/swapplaces
 
+scoreboard players add global thistileid 1
+scoreboard players operation @n[tag=thistile] thistileid = global thistileid
 
-execute as @n[tag=lookatme] at @s if score @s unit.health matches 1.. run function units:general/attack/attackback
+execute as @n[tag=lookatme] at @s if score @s unit.health matches 1.. run function units:general/schedule/scores
 
 tag @e[tag=lookatme] remove lookatme
 

@@ -22,6 +22,6 @@ scoreboard objectives add village.level dummy
 scoreboard objectives add village.xp dummy
 scoreboard objectives add village.xp.nextlevel dummy
 
-
+scoreboard objectives add carrotcooldown dummy
 
 scoreboard objectives add xp.timer dummy

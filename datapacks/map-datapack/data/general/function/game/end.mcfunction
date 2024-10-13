@@ -2,6 +2,9 @@ scoreboard players set state game 0
 tellraw @a "End"
 tag @a[tag=player1] remove currentplayer
 
+execute as @e[tag=glowing] on passengers run data merge entity @s {Glowing:0b}
+tag @e remove glowing
+
 bossbar set minecraft:player1 visible false
 bossbar set minecraft:player2 visible false
 bossbar set minecraft:player3 visible false

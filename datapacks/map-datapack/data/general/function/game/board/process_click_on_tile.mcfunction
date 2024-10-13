@@ -1,3 +1,4 @@
+execute if score value blockinteraction matches 1 run return 0
 execute as @s[tag=tile,tag=!fog] if items entity @a[tag=currentplayer] weapon.mainhand carrot_on_a_stick[custom_data={builder:1}] run return run function structures:build/givebuilder/find
 
 

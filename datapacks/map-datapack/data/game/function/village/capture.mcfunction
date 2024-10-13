@@ -1,3 +1,5 @@
+$execute on passengers as @s[tag=unit] if entity @s[tag=!player$(currentplayer)] run return 0
+
 #: Gives the village a unique ID
 tag @n[tag=village] remove village.cancapture
 scoreboard players add global village.id 1
