@@ -1,3 +1,3 @@
-execute if score generating board_generation matches 1 run return run function src:board/generation/decor/set
+execute if function src:board/generation/loops run return 0
 
 function src:player/handle

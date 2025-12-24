@@ -11,5 +11,17 @@
     },
     "done": true
   },
-  "DataVersion": 4440
+  "minecraft:recipes/misc/copper_nugget_from_smelting": {
+    "criteria": {
+      "has_copper_spear": "2025-12-24 12:06:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_blasting": {
+    "criteria": {
+      "has_copper_spear": "2025-12-24 12:06:37 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
 }

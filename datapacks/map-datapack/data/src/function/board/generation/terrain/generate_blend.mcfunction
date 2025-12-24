@@ -1,0 +1,1 @@
+function src:board/generation/terrain/generate_blend_macro with storage board_generation
